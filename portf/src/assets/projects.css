@@ -1,0 +1,11 @@
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.col a{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}

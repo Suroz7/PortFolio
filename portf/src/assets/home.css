@@ -1,0 +1,147 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(WeddingdayPersonalUseRegular-1Gvo0.ttf);
+}
+html{
+    
+    border:solid;
+    border-width:medium;
+    margin: 50px;
+    
+
+    
+}
+.body {
+
+    display: flex;
+   
+}
+
+.border{
+    background-image:radial-gradient(rgb(0, 0, 0),rgb(36, 35, 35),rgb(67, 67, 71),rgb(83, 83, 85),rgb(106, 106, 111),rgb(147, 144, 144) ,rgb(231, 231, 231));
+    border: solid;
+    margin: 30px;
+    border-width: thick;
+}
+.body div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+
+    height: 215px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+ 
+    border: solid;
+    border-color: black;
+    filter: grayscale(100%);
+}
+
+.user_details {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.username {
+
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    font-size: 100px;
+
+}
+
+.border p  {
+    color: black;
+
+   
+    display: flex;
+    justify-content: center;
+    font-family: myFirstFont;
+    font-size: 50px;
+}
+
+.nav a {
+    
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    margin: 10px;
+    margin-left: 0;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+.pos{
+    
+    font-size: 40px;
+    font-weight: 500;
+   
+    justify-content: end;
+    margin-right: 30px;
+}
+.yt69{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* pop up window **/
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(WeddingdayPersonalUseRegular-1Gvo0.ttf);
+}
+
+.quali {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.quali_title {
+    margin: 10px;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    font-family: myFirstFont;
+    display: flex;
+    justify-content: center;
+}
+
+.quali_border {
+    background-color: rgb(78, 78, 78);
+    margin: 30px;
+    border: solid;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    border-width: thick;
+    height: 500px;
+}
+
+.quali div {
+
+    width: 300px;
+}
+
+H2 {
+    margin: 0;
+    text-align: center;
+}
+
+.education {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+
+    list-style: none;
+
+}
+
+
+.dropdown-content p li{
+   
+    margin: 15px;
+    font-size: 20px;
+
+}
+.design p {
+    margin-top: 50px;
+}
+.experience p{
+    margin-top:50px;
+}
+
+.dropdown-content p li:hover{
+   
+    scale: 1.1;
+    color: grey;
+
+}
+
+.education:hover .dropdown-content {
+    display: block;
+
+}
+
+.education:hover  h2 {
+    color: Grey;
+    scale: 1.15;
+}
+.programming:hover h2 {
+    color: Grey;
+    scale: 1.15;
+}
+.design:hover  h2 {
+    color: Grey;
+    scale: 1.15;
+}
+.experience:hover  h2 {
+    color: Grey;
+    scale: 1.15;
+}
+
+.programming:hover .dropdown-content {
+    display: block;
+
+}
+
+.design:hover .dropdown-content {
+    display: block;
+
+}
+
+.experience:hover .dropdown-content {
+    display: block;
+
+}
+.education .dropdown-content h3 {
+    position: relative;
+    display: inline-block;
+    margin-top: 45px;
+    color: black;
+}
+.education .dropdown-content p{
+    display: none;
+    position: absolute;
+    text-align: center;
+    color: black;
+    list-style: none;
+}
+.dropdown-content .ddcc:hover p{
+    display: block;
+
+}
+.ddcc:hover h3{
+    color: grey;
+    
+}
+.ddcc{
+    margin: 0px;
+}
+.extramargin
+{
+    margin-left: 100px
+}
