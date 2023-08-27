@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c4c922f.css",
-    "main.js": "/portfolio/static/js/main.39ff580c.js",
+    "main.css": "/portfolio/static/css/main.c48fa489.css",
+    "main.js": "/portfolio/static/js/main.30b338a6.js",
     "static/js/787.bbb9142f.chunk.js": "/portfolio/static/js/787.bbb9142f.chunk.js",
     "static/media/WeddingdayPersonalUseRegular-1Gvo0.ttf": "/portfolio/static/media/WeddingdayPersonalUseRegular-1Gvo0.494730d5d9014ac4e283.ttf",
     "static/media/270236150_637446750716451__n.jpg": "/portfolio/static/media/270236150_637446750716451_3181187670546686420_n.94d3a56f4c5a4cf29883.jpg",
     "index.html": "/portfolio/index.html",
-    "main.0c4c922f.css.map": "/portfolio/static/css/main.0c4c922f.css.map",
-    "main.39ff580c.js.map": "/portfolio/static/js/main.39ff580c.js.map",
+    "main.c48fa489.css.map": "/portfolio/static/css/main.c48fa489.css.map",
+    "main.30b338a6.js.map": "/portfolio/static/js/main.30b338a6.js.map",
     "787.bbb9142f.chunk.js.map": "/portfolio/static/js/787.bbb9142f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4c922f.css",
-    "static/js/main.39ff580c.js"
+    "static/css/main.c48fa489.css",
+    "static/js/main.30b338a6.js"
   ]
 }
