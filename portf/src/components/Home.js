@@ -22,25 +22,23 @@ class Home extends React.Component {
             
             <div class='border'>
             <Link className='title' to=''>
-                <p >A professional Portfolio</p>
-                </Link> 
+                <h1 >Suroj Gurung</h1>
+                </Link>  
+                 
                     <div class="body">
 
                         
 
-
+                 
 
                     </div>
                     <div class="user_details"> <div class='nav'>
-                    <Link to=''><p class='username'>Suroj Gurung</p></Link>
+                    <Link to=''><p class='username'>Developer / Designer</p></Link>
                         
 
                     </div>
-                        <div class='yt69'><div class='img'>
-                            <img src={userimg} alt=' portfolio owner' />
-
-                        </div>
-                            
+                        <div class='yt69'>
+                            <button>Contact Suroz</button>
                           
                         </div></div>
 

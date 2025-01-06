@@ -33,30 +33,30 @@ class Qualification extends React.Component {
                     </div>
                     <div className='programming'>
                     <h2> 
-                       Programming 
-                        </h2><h2>Languages</h2>
+                       Skills</h2>
                         <div className='dropdown-content'>
                         <p>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Java</li>
-                        <li>C++</li>
-                        <li>C programming</li>
+                        <li>Frontend development</li>
+                        <li>Frontend design</li>
+                        <li>React libraries</li>
+                       <li></li>
+                        <li>Adobe Illuslator </li>
+                         <li>Responsive Web Design</li>
+                        <li>Computer Systems and Cloud Computer System</li>
+                        <li></li>
                         </p>
                     </div></div>
-                    <div className='design'>
-                    <h2> 
-                       Design Skills
-                        </h2>
-                        <div className='dropdown-content'> <p>
-                        <li>Adobe Illuslator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Blender</li>
-                        
-                        </p></div>
-                    </div>
+                   { /* <div className='design'>
+                      <h2> 
+                         Design Skills
+                          </h2>
+                          <div className='dropdown-content'> <p>
+                          <li>Adobe Illuslator</li>
+                          <li>Adobe Photoshop</li>
+                          <li>Blender</li>
+                          
+                          </p></div>
+                    </div> */}
                     <div className='experience'>
                     <h2> 
                        Experience

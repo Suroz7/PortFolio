@@ -9,7 +9,7 @@ import './assets/projects.css';
 import Header from './components/header';
 import Qualification from './components/quallification';
 import Projects from './components/projects';
-
+import './assets/header.css';
 function App() {
   return (
     <Router>

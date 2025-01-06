@@ -1,12 +1,38 @@
-/*header{
+@font-face {
+    font-family: myFirstFont;
+    src: url(WeddingdayPersonalUseRegular-1Gvo0.ttf);
+}
+
+header{
 
 display: flex;
-    height: 50px;
+    height: 90px;
     align-items: center;
     text-align: center;
     
     justify-content: center;
+    ;
+
 }
-a{
-    margin: 4px;
+.nav1 a{
+    
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 45px;
+text-decoration: none;
+color: black;
+font-family: myFirstFont;  
+}
+
+.nav1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  
+}
+.nav1 a:hover{
+    transform: scale(1.5);
+    
+color: rgb(97, 97, 97)
 }
